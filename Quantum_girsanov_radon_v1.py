@@ -16,9 +16,9 @@ from qiskit.quantum_info import Statevector
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -311,19 +311,19 @@ Posebnost: Eksponencijalni martingale izvod mere dQ/dP u kvantnim amplitudama
 CSV: loto7_4718_k90.csv (kola: 4718)
 Validacija -> NLL: 3.6881 | Prosek pogodaka: 1.257
 Test       -> NLL: 3.6922 | Prosek pogodaka: 1.220
-NEXT       -> [2, 11, 31, 32, 33, 34, 39]
+NEXT       -> [2, x, 31, y, 33, z, 39]
 ----------------------------------------------------
 
 CSV: loto7_4718_k90_loto_2981.csv (kola: 2981)
 Validacija -> NLL: 3.6920 | Prosek pogodaka: 1.262
 Test       -> NLL: 3.6936 | Prosek pogodaka: 1.233
-NEXT       -> [1, 2, 11, 20, 26, 31, 32]
+NEXT       -> [1, x, 11, y, 26, z, 32]
 ----------------------------------------------------
 
 CSV: loto7_4718_k90_loto_plus_1737.csv (kola: 1737)
 Validacija -> NLL: 3.6830 | Prosek pogodaka: 1.208
 Test       -> NLL: 3.6823 | Prosek pogodaka: 1.322
-NEXT       -> [1, 2, 4, 11, 28, 32, 33]
+NEXT       -> [1, x, 4, y, 28, z, 33]
 ----------------------------------------------------
 """
 
